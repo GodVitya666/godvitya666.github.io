@@ -607,7 +607,7 @@ flex-direction: column;
 	margin-left: 138px;
 	text-align: left;
 	font-size: 13px;
-	margin: 0px 0px 0px 0px;
+	margin: 0px;
 }
 
 .menuC {
@@ -622,6 +622,7 @@ flex-direction: column;
 	display: flex;
 	justify-content: start;
 	margin-top: 50px;
+	margin-bottom: 100px;
 }
 
 .flex{
@@ -670,3 +671,18 @@ flex-direction: column;
 	color: #ce1717;
 	margin-bottom: -20px;
 }
+
+
+
+.topbutton {
+	width:100px;
+	text-align:center;
+	padding:10px;
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	cursor:pointer;
+	color:#333;
+	font-family:verdana;
+	font-size:12px;
+	}
